@@ -25,7 +25,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/MichaelLedger/Performance.git", from: "1.1.2")
+    .package(url: "https://github.com/MichaelLedger/Performance.git", from: "1.0.0")
 ]
 ```
 
