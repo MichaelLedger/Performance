@@ -13,7 +13,7 @@ A lightweight performance monitoring library for Apple platforms that helps trac
 
 ## Requirements
 
-- iOS 13.0+ / tvOS 13.0+
+- iOS 14.0+ / tvOS 14.0+
 - Swift 5.5+
 - Xcode 13.0+
 
@@ -25,7 +25,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/MichaelLedger/Performance.git", from: "1.0.0")
+    .package(url: "https://github.com/MichaelLedger/Performance.git", from: "1.0.2")
 ]
 ```
 

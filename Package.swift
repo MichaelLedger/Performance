@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Performance",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v14),
         .tvOS(.v13),
         .macOS(.v10_15),
         .visionOS(.v1),

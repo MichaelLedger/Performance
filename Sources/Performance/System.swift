@@ -9,7 +9,7 @@ import Foundation
 
 public enum System {
     /// System uptime include sleep time
-    public static func uptime() -> time_t {
+    public static var uptime: time_t {
         var boottime = timeval()
         var mib: [Int32] = [CTL_KERN, KERN_BOOTTIME]
         var size = MemoryLayout<timeval>.stride
@@ -25,7 +25,7 @@ public enum System {
     }
 
     /// System uptime without sleep time
-    public var systemUptime: TimeInterval {
+    public static var systemUptime: TimeInterval {
         ProcessInfo.processInfo.systemUptime
     }
 }
