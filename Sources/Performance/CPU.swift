@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum CPU {
+public enum CPU {
     /// 获取设备 CPU 的占用率
     static var cpuUsage: Double? {
         var totalUsageOfCPU: Double?
